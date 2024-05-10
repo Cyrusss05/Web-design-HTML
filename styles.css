@@ -7,22 +7,27 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5;
+    background-color: #f8f9fa;
     color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header h1 {
     margin-bottom: 10px;
+    font-size: 36px;
 }
 
 nav ul {
@@ -37,6 +42,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -45,23 +51,41 @@ nav ul li a:hover {
 
 /* Section styles */
 section {
-    padding: 20px;
-    margin: 20px 0;
-    background-color: #fff;
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.about-section {
+    background-image: url('about-bg.jpg');
+}
+
+.issues-section {
+    background-image: url('issues-bg.jpg');
+}
+
+.solutions-section {
+    background-image: url('solutions-bg.jpg');
+}
+
+.contact-section {
+    background-image: url('contact-bg.jpg');
 }
 
 section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 20px 0;
 }
 
+footer p {
+    font-size: 14px;
+}

@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #07da58;
+    background-color: #6c2dd3d2;
     color: white;
     padding: 10px 0;
 }
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #07da58;
+    background-color: #00000011;
 }
 
 main {
@@ -54,7 +54,7 @@ section {
 }
 
 footer {
-    background-color: #07da58;
+    background-color: #6c2dd3d2;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -102,7 +102,7 @@ form input, form textarea {
 }
 
 form input[type="submit"] {
-    background-color: #07da58;
+    background-color: #6c2dd3d2;
     color: white;
     border: none;
     cursor: pointer;

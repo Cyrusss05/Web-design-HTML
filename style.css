@@ -64,7 +64,7 @@ footer {
 }
 
 h2 {
-    color: #d9534f;
+    color: #6c2dd3d2;
 }
 
 table {
@@ -163,5 +163,25 @@ body {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
+.yt {
+    position: relative; 
+    display: block; 
+    width: 90%; 
+    height: 0; 
+    margin: auto; 
+    padding: 0% 0% 56.25%; 
+    overflow: hidden; 
+  }
+  
+  .yt iframe {
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: 0; 
+  }
 
 

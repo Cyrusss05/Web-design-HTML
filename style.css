@@ -7,30 +7,33 @@ body {
 }
 
 header {
-    background-color: #6c2dd3d2;
+    background-color: #0c0c0c50;
     color: white;
-    padding: 10px 0;
+    display:flex;
+    justify-content: start;
+    justify-content: space-between;
+    
 }
 
 header h1 {
-    text-align: center;
     margin: 0;
+    color: #000000;
+    margin-left: 1em;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
-    margin: 0;
+    display:flex;
+    margin-right: 1em
 }
 
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;

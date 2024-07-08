@@ -2,23 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     line-height: 1.6;
+    background-image: url("https://static1.squarespace.com/static/5e1fedab6d6d853d5fbf8913/t/641cb74afea0e75ad7295d35/1681190693533/Cohort+Based+Learning.png?format=1500w");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
+
 header {
-    background-color: #0c0c0c50;
-    color: white;
-    display:flex;
-    justify-content: start;
-    justify-content: space-between;
     
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 98%;
 }
 
 header h1 {
     margin: 0;
-    color: #000000;
     margin-left: 1em;
+    color: rgb(0, 0, 0);
 }
 
 nav ul {
@@ -26,38 +30,49 @@ nav ul {
     padding: 0;
     display:flex;
     margin-right: 1em
+    
 }
 
-nav ul li {
-    margin: 0 10px;
-}
 
 nav ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 4px;
+    
 }
 
 nav ul li a:hover {
-    background-color: #00000011;
+    background-color: #ffffff5d;
 }
 
 main {
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
-section {
-    max-width: 800px;
-    margin: auto;
-    background: white;
+.video{
+   
+    min-width: 600px;
+    background: rgba(0, 0, 0, 0.37);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.content{
+
+    max-width: 1000px;
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+
 footer {
-    background-color: #6c2dd3d2;
+    background-color: rgba(0, 0, 0, 0.37);
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -70,10 +85,12 @@ h2 {
     color: #6c2dd3d2;
 }
 
-table {
+.table-donate{
     width: 100%;
     margin: 20px 0;
     border-collapse: collapse;
+    background-color: #00000023;
+    color: rgb(255, 255, 255);
 }
 
 table, th, td {

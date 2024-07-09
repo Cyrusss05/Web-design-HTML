@@ -195,6 +195,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 10px;
     justify-items: center;
+    
 }
 
 .gallery-grid img {
@@ -203,6 +204,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 200px;
 }
 
 .gallery-grid img:hover {
